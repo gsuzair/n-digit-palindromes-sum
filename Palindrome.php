@@ -10,7 +10,7 @@ for ($i = $start; $i <= $end; $i++){
 	} 
 } 
 function isPalindrome($num){
-	$num = (string) $num;  
+    $num = (string) $num;  
     $revstr = strrev($num);  
     $reverse = (int) $revstr;   
 	return($num == $reverse) ? 1 : 0; 
